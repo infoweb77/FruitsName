@@ -13,7 +13,7 @@
     ![Config.json](./fl_8.png)
     
     2. Активировать чек-бокс `Copy items if needed`
-    3. Перетянуть файл `ZGRImSDK.xcframework` в каталог Frameworks (левая панель в `Xcode`). В случае, если в проекте отсутствует папка Frameworks, перетянуть файл `ZGRImSDK.xcframework` в раздел Frameworks, Libraries, and Embedded Content нв центральном экране основного таргета приложения.
+    3. Перетянуть файл `ZGRImSDK.xcframework` в каталог Frameworks (левая панель в `Xcode`). В случае, если в проекте отсутствует папка Frameworks, перетянуть файл `ZGRImSDK.xcframework` в раздел Frameworks, Libraries, and Embedded Content на центральном экране основного таргета приложения.
     
     ![Изображение 1](./fl_4.png)
     
@@ -28,9 +28,13 @@
     ![Изображение 3](./fl_5.png)
 
 
+
 ## Интеграция c помощью менеджера пакетов CocoaPods
 
 1. Перетянуть полученный от ZGR конфигурационный файл `ZGRConfig.json` в  в иерархию файлов проекта (левая панель в `Xcode`)
+
+    ![Config.json](./fl_8.png)
+
 2. Активировать чек-бокс `Copy items if needed`
 3. Создать `podfile` и отредактировать таким образом, чтобы библиотека `ZGRImSDK.xcframework` устанавливалась и в основное 
 приложение и в расширения.
@@ -38,6 +42,7 @@
     ![Пример podfile](./fl_11_1.png)
     
 4. Выполнить команду `pod install`. Убедиться, что необходимые библиотеки интегрированы в проект.
+
     ![Изображение 4](./fl_11.png)
     
 5. Перейти в основные настройки таргета приложения (первая вкладка), к разделу `Frameworks, Libraries and Embedded Content`, нажать "+"
@@ -109,7 +114,7 @@
         ![Изображение 7](./App_Group_1.png)
     
         
-  #### Без изменений повторить шаги 2-6 для таргетов `Notification Service Extension` и `Notification Content Extension`.
+#### Без изменений повторить шаги 2-6 для таргетов `Notification Service Extension` и `Notification Content Extension`.
   
         ![Изображение 8](./App_Group_2.png)
     
@@ -134,7 +139,7 @@
     
         ![Изображение 11](./App_Group_5.png)
     
-    #### Повторить шаги 2-6 для таргетов `Notification Service Extension` и `Notification Content Extension`.
+#### Повторить шаги 2-6 для таргетов `Notification Service Extension` и `Notification Content Extension`.
 
         ![Изображение 12](./App_Group_7.png)
     
