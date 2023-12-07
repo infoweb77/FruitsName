@@ -116,9 +116,9 @@
         
 #### Без изменений повторить шаги 2-6 для таргетов `Notification Service Extension` и `Notification Content Extension`.
   
-        ![Изображение 8](./App_Group_2.png)
+*   ![Изображение 8](./App_Group_2.png)
     
-        ![Изображение 9](./App_Group_3.png)
+    ![Изображение 9](./App_Group_3.png)
 
     
 ### Нестандартный метод формирования имени группы
@@ -141,8 +141,8 @@
     
 #### Повторить шаги 2-6 для таргетов `Notification Service Extension` и `Notification Content Extension`.
 
-        ![Изображение 12](./App_Group_7.png)
+*   ![Изображение 12](./App_Group_7.png)
     
-        ![Изображение 13](./App_Group_8.png)
+    ![Изображение 13](./App_Group_8.png)
 
 
